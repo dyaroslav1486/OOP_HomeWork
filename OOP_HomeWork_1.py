@@ -44,3 +44,4 @@ print(isinstance(lecturer, Mentor)) # True
 print(isinstance(reviewer, Mentor)) # True
 print(lecturer.courses_attached)    # []
 print(reviewer.courses_attached)    # []
+print(best_student.grades)
