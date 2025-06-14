@@ -1,4 +1,5 @@
 class Student:
+
     def __init__(self, name, surname, gender):
         self.name = name
         self.surname = surname
@@ -34,6 +35,7 @@ cool_mentor.rate_hw(best_student, 'Python', 1)
 
 class Lecturer(Mentor):
     pass
+
 class Reviewer(Mentor):
     pass
 
